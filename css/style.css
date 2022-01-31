@@ -1,0 +1,88 @@
+@import "null.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Black.woff2") format("woff2"), url("../fonts/AlegreyaSC-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Bold.woff2") format("woff2"), url("../fonts/AlegreyaSC-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Medium.woff2") format("woff2"), url("../fonts/AlegreyaSC-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Regular.woff2") format("woff2"), url("../fonts/AlegreyaSC-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Italic.woff2") format("woff2"), url("../fonts/AlegreyaSC-Italic.woff") format("woff");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+body{
+   font-family: AlegreyaSC, sans-serif;
+   line-height: 1.5;
+}
+.navigation{
+   font-family: "Montserrat";
+   text-align: right;
+}
+.subtitle-h{
+   font-weight: 500;
+}
+h1{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 900;
+   text-shadow: 12px 13px 4px rgba(150, 150, 150, 0.27);
+}
+.subtitle{
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 20px;
+   word-spacing: 4px;
+}
+.quotes li{
+   text-transform: uppercase;
+   font-style: italic;
+}
+.line-trough{
+   color: rgb(94, 17, 17);
+   text-decoration: line-through;
+}
+.underline{
+   color: rgb(11, 119, 56);
+   text-decoration: underline;
+}
+.footer-text{
+   color: rgba(70, 103, 129, 0.7);
+   font-size: 15px;
+   text-transform: lowercase;
+   font-family: "Montserrat";
+   font-style: oblique;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: overline;
+}
+.text{
+   text-indent: 15px;
+   text-align: justify;
+}
